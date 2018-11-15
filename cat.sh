@@ -1,4 +1,4 @@
 #!/bin/bash
 # cat all files
 
-cat *.yml
+find . -type f -name "*.yml" -exec cat {} \;
